@@ -1,5 +1,10 @@
 // TODO: 
 // debug the calculate button. That's it for now!
+// next is ensure the calculation returns properly
+// the button might actually be working correctly, 
+// but my node server might not be able to handle
+// requests like that that have to update. 
+// further research is needed
 
 
 
