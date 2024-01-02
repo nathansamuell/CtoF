@@ -1,3 +1,5 @@
+(function(){"use strict";
+
 function convertTemp() {
     // var tempInC = document.getElementById("input").value;
     // var tempInF = tempInC * 9;
@@ -7,3 +9,5 @@ function convertTemp() {
 
     console.log("the button click worked");
 }
+
+})();

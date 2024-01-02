@@ -1,3 +1,5 @@
+(function(){"use strict";
+
 // TODO: 
 // debug the calculate button. That's it for now!
 // next is ensure the calculation returns properly
@@ -40,3 +42,5 @@ server.listen(port, function(error) { // this function handles the response for 
         console.log('Server is listening on port ' + port);
     }
 })
+
+})();
