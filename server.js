@@ -13,6 +13,7 @@ const http= require('http');
 const fs = require('fs');
 const port = 3000;
 
+
 // Creates a server, below is the logic structure (sorry for the callbacks)
 //  1. use http to create a createServer object
 //  2. create the function that this server runs and pass it to the createServer call
@@ -26,7 +27,7 @@ const server = http.createServer(function (req, res) {   //this function lists a
     fs.readFile('./index.html', function(error, data) {
         if (error) {
             res.writeHead(404);
-            res.write('Error: file not found');
+            res.write('Error: HTML file not found');
         } else {
             res.write(data);
         }
